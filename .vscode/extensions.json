@@ -1,0 +1,8 @@
+{
+  "recommendations": ["johnsoncodehk.volar"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ]
+}
