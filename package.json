@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "eslint ./src/**/*.ts ./src/**/*.vue --cache --fix",
+    "lint": "eslint ./src/**/*.ts ./src/**/*.vue --fix",
     "prepare": "husky install"
   },
   "dependencies": {
