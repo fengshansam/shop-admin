@@ -18,5 +18,23 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-  }
+    'vue/html-self-closing': ['error', {
+      html: {
+        void: 'any',
+        normal: 'any',
+        component: 'any'
+      },
+      svg: 'always',
+      math: 'always'
+    }],
+    'vue/multi-word-component-names': 'off'
+  },
+  overrides: [
+    {
+      files: ['src/api/**/*.ts', 'src/types/**/*.ts'],
+      rules: {
+        camelcase: 'off'
+      }
+    }
+  ]
 }
