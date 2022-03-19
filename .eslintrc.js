@@ -27,7 +27,8 @@ module.exports = {
       svg: 'always',
       math: 'always'
     }],
-    'vue/multi-word-component-names': 'off'
+    'vue/multi-word-component-names': 'off',
+    'vue/html-closing-bracket-spacing': 'off'
   },
   overrides: [
     {
